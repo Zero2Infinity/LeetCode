@@ -2,9 +2,9 @@ package Medium.p912;
 
 import java.util.Arrays;
 
+// Bubble sort is simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
 public class BubbleSort {
 
-	// Bubble sort is simplest sorting algorithm that works by repeatedly swapping the adjacent elements if they are in wrong order.
     // Time complexity: O(n^2)
 	// Space complexity: O(1)
 	private static int[] sort(int[] nums) {

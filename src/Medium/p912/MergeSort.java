@@ -2,9 +2,8 @@ package Medium.p912;
 
 import java.util.Arrays;
 
+// Merge sort is a Divideand Conquer algorithm.
 public class MergeSort {
-
-	// Merge sort is a Divide and Conquer algorithm.
 	// Time complexity: O(n logn)
 	// Space complexity: O(n)
 	private static void sort(int[] nums) {

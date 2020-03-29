@@ -2,10 +2,10 @@ package Medium.p912;
 
 import java.util.Arrays;
 
+// Insertion sort that works the way we sort cards in our hands.
+// Pick element arr[i] and insert it into sorted sequence arr[0…i-1]
 public class InsertionSort {
 
-	// Insertion sort that works the way we sort cards in our hands.
-	// Pick element arr[i] and insert it into sorted sequence arr[0…i-1]
 	// Time complexity: O(n^2)
 	// Space complexity: O(1)
 	private static void sort(int[] nums) {
